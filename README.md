@@ -28,7 +28,7 @@ flowchart TD
     OK --> D
     H --> D
 ```
-##Cómo se registra un movimiento
+#Funcionalidad general
 
 ```mermaid
 flowchart TD
