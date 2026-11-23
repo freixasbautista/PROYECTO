@@ -51,5 +51,11 @@ flowchart TD
     M --> N
     J --> X3[Error: no se registró nada]
  ```
-
+# El dueño actualmente lleva el inventario en Excel y tiene problemas:
+- No sabe exactamente cuántas unidades tiene de cada producto.
+- Se olvida de registrar las ventas o reposiciones.
+- Compra mercadería que ya tiene.
+- Se queda sin productos que tienen mucha demanda.
+- No sabe cuáles son los productos que más se mueven.
+- Cuando encuentra diferencias en el stock, no sabe por qué ocurrieron.
    
