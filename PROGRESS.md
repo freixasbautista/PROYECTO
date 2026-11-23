@@ -1,4 +1,4 @@
-# StockFlow — Seguimiento del proyecto
+#StockFlow — Seguimiento del proyecto
 
 ## Estado general
 - Estado: Planificación
