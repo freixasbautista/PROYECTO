@@ -127,3 +127,29 @@ Acá describís las capacidades del sistema desde el punto de vista del usuario,
 - Obtener resumen de movimientos.
 - Consultar productos según su nivel de stock.
 - Visualizar estadísticas básicas.
+
+# 4. Requisitos No Funcionales (RNF)
+
+Definen los atributos de calidad, restricciones y comportamiento operativo del sistema más allá de las funcionalidades específicas.
+
+| ID | Requisito | Descripción |
+| :--- | :--- | :--- |
+| **RNF-01** | **Integridad** | Los datos del stock y sus movimientos deben permanecer consistentes. |
+| **RNF-02** | **Usabilidad** | La interfaz debe ser clara y permitir realizar las operaciones habituales sin confusión. |
+| **RNF-03** | **Rendimiento** | Las consultas habituales de productos y movimientos deben responder sin demoras innecesarias. |
+| **RNF-04** | **Mantenibilidad** | El código debe estar organizado en módulos y responsabilidades separadas. |
+| **RNF-05** | **Confiabilidad** | Los errores deben gestionarse sin dejar operaciones incompletas o datos inconsistentes. |
+| **RNF-06** | **Compatibilidad** | La aplicación web debe poder utilizarse desde navegadores de escritorio modernos. |
+| **RNF-07** | **Seguridad** | Las entradas del usuario deben validarse y las operaciones no autorizadas deben impedirse. |
+
+---
+
+### Detalle por requisito no funcional
+
+- **RNF-01 — Integridad:** Los datos del stock y sus movimientos deben permanecer consistentes.
+- **RNF-02 — Usabilidad:** La interfaz debe ser clara y permitir realizar las operaciones habituales sin confusión.
+- **RNF-03 — Rendimiento:** Las consultas habituales de productos y movimientos deben responder sin demoras innecesarias.
+- **RNF-04 — Mantenibilidad:** El código debe estar organizado en módulos y responsabilidades separadas.
+- **RNF-05 — Confiabilidad:** Los errores deben gestionarse sin dejar operaciones incompletas o datos inconsistentes.
+- **RNF-06 — Compatibilidad:** La aplicación web debe poder utilizarse desde navegadores de escritorio modernos.
+- **RNF-07 — Seguridad:** Las entradas del usuario deben validarse y las operaciones no autorizadas deben impedirse.
