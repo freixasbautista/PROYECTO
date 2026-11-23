@@ -40,3 +40,90 @@ Si el conteo real difiere del sistema (5 en sistema, 3 reales), se registra un m
 
 13. Validaciones de precios y valores
 Cantidades enteras positivas, precios no negativos, y stock mínimo no negativo.
+
+# 2. Alcance del Proyecto
+
+Este apartado define los límites de la primera versión (**MVP**) para evitar el *scope creep* y mantener el foco en el núcleo operativo del inventario.
+
+# 2. Alcance — qué incluye y qué NO incluye
+
+Esto es lo que evita que el proyecto se convierta en algo interminable.
+
+### Incluido en el proyecto
+- Gestión de productos y categorías.
+- Control de existencias.
+- Registro de entradas, salidas y ajustes.
+- Historial de movimientos.
+- Alertas de reposición.
+- Estadísticas básicas de inventario.
+- Backend, base de datos, API y frontend.
+- Testing automatizado.
+
+### Fuera del alcance inicial
+- Facturación electrónica.
+- Integración con AFIP/ARCA.
+- Gestión de empleados.
+- Contabilidad.
+- Integración con proveedores externos.
+- E-commerce.
+- Múltiples sucursales.
+- Sistema de pagos.
+- Aplicación móvil nativa.
+
+> Esto no significa que nunca lo vas a hacer. Significa que no forma parte de la primera versión, evitando expandir el proyecto constantemente.
+
+---
+
+# 3. Requisitos funcionales — qué tiene que poder hacer
+
+Acá describís las capacidades del sistema desde el punto de vista del usuario, sin explicar todavía cómo las vas a programar.
+
+| Módulo | Requisitos |
+| :--- | :--- |
+| **RF-01 — Gestión de productos** | • Crear productos.<br>• Consultar listado y detalles.<br>• Editar información.<br>• Buscar por nombre o SKU.<br>• Filtrar por categoría o estado.<br>• Desactivar productos. |
+| **RF-02 — Gestión de categorías** | • Crear categorías.<br>• Editar categorías.<br>• Consultar categorías.<br>• Asociar productos a categorías. |
+| **RF-03 — Gestión de movimientos** | • Registrar entradas.<br>• Registrar salidas.<br>• Registrar ajustes.<br>• Consultar historial.<br>• Filtrar movimientos por producto, tipo o período. |
+| **RF-04 — Control de stock** | • Consultar stock actual por producto.<br>• Consultar stock total.<br>• Identificar productos con stock bajo.<br>• Detectar productos sin stock. |
+| **RF-05 — Dashboard** | • Visualizar métricas principales.<br>• Consultar movimientos recientes.<br>• Ver productos que requieren reposición.<br>• Consultar productos con mayor movimiento. |
+| **RF-06 — Reportes** | • Consultar entradas y salidas por período.<br>• Obtener resumen de movimientos.<br>• Consultar productos según su nivel de stock.<br>• Visualizar estadísticas básicas. |
+
+### Detalle por módulo
+
+#### RF-01 — Gestión de productos
+- Crear productos.
+- Consultar listado y detalles.
+- Editar información.
+- Buscar por nombre o SKU.
+- Filtrar por categoría o estado.
+- Desactivar productos.
+
+#### RF-02 — Gestión de categorías
+- Crear categorías.
+- Editar categorías.
+- Consultar categorías.
+- Asociar productos a categorías.
+
+#### RF-03 — Gestión de movimientos
+- Registrar entradas.
+- Registrar salidas.
+- Registrar ajustes.
+- Consultar historial.
+- Filtrar movimientos por producto, tipo o período.
+
+#### RF-04 — Control de stock
+- Consultar stock actual por producto.
+- Consultar stock total.
+- Identificar productos con stock bajo.
+- Detectar productos sin stock.
+
+#### RF-05 — Dashboard
+- Visualizar métricas principales.
+- Consultar movimientos recientes.
+- Ver productos que requieren reposición.
+- Consultar productos con mayor movimiento.
+
+#### RF-06 — Reportes
+- Consultar entradas y salidas por período.
+- Obtener resumen de movimientos.
+- Consultar productos según su nivel de stock.
+- Visualizar estadísticas básicas.
