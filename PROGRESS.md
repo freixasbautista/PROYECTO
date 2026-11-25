@@ -28,7 +28,7 @@
 - [ ] Completar PROJECT.md
 
 ## Fase actual
-
+ya se desarrollo el codigo de api.py, 
 ### Objetivo
 Definir claramente el proyecto, sus funcionalidades, limitaciones
 y reglas antes de comenzar el desarrollo.
